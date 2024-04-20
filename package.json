@@ -1,8 +1,8 @@
 {
   "name": "music-bot-v2",
   "main": "main.js",
-  "author": "Umut Bayraktar",
-  "description": "Discord.js V13 Compatible Umut Bayraktar Youtube Private Music Bot Codes for Shared on GitHub!",
+  "author": "chidoka",
+  "description": "Discord.js V13 Compatible Chidoka Private Music Bot Codes for Shared on GitHub!",
   "scripts": {
     "start": "node main.js"
   },
