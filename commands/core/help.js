@@ -18,7 +18,7 @@ module.exports = {
         embed.addField(`Available - ${commands.size} Command Available`, commands.map(x => `\`${x.name}${x.aliases[0] ? ` (${x.aliases[0]})\`` : '\`'}`).join(' | '));
 
         embed.setTimestamp();
-        embed.setFooter({ text: 'Music Bot Commands - by Umut Bayraktar ❤️', iconURL:message.author.avatarURL({ dynamic: true }) });
+        embed.setFooter({ text: 'Music Bot Commands - by chidoka', iconURL:message.author.avatarURL({ dynamic: true }) });
         message.channel.send({ embeds: [embed] });
     },
 };
